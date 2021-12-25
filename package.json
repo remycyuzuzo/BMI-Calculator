@@ -1,0 +1,21 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "Calculate your Body mass Index with this App, so that you will know if you should do sport or increase your weight",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remycyuzuzo/bmi-calculator.git"
+  },
+  "keywords": [
+    "bmi",
+    "js",
+    "begginer",
+    "html"
+  ],
+  "author": "CJ Remy",
+  "license": "ISC"
+}

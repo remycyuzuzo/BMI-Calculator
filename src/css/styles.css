@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  margin-bottom: 1em;
+}
+.dflex {
+  display: flex;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.container .form-container {
+  padding: 16px;
+}
+.container .form-container label {
+  display: block;
+  margin-bottom: 7.5px;
+}
+.container .form-container .input-box {
+  margin-bottom: 14px;
+}
+.container .form-container .input-box input {
+  width: 100%;
+  padding: 7px;
+}
+.container .form-container .input-box select {
+  padding: 7px;
+}
+.container .form-container .input-box button {
+  cursor: pointer;
+  padding: 7px;
+}

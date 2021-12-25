@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Body Mass Index Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2>Body Mass Index (BMI) Calculator</h2>
+        <form action="" id="form-1">
+          <div class="input-box">
+            <label for="weight">Your weights</label>
+            <div class="dflex">
+              <select name="" id="mass-metric">
+                <option value="kg">kg</option>
+                <option value="lbs">lbs</option>
+                <option value="g">grams</option>
+              </select>
+              <input
+                type="text"
+                name=""
+                placeholder="type your weight"
+                id="weight"
+              />
+            </div>
+          </div>
+          <div class="input-box">
+            <label for="height">Your height</label>
+            <div class="dflex">
+              <select name="" id="height-metric">
+                <option value="m">meters</option>
+                <option value="cm">cm</option>
+                <option value="feets">feets</option>
+                <option value="inches">inches</option>
+              </select>
+              <input
+                type="text"
+                name=""
+                placeholder="type your height"
+                id="height"
+              />
+            </div>
+          </div>
+          <div class="input-box">
+            <button type="submit">Calculate</button>
+          </div>
+        </form>
+      </div>
+      <div id="results"></div>
+    </div>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
